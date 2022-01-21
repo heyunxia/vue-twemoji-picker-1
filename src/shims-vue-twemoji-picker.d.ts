@@ -1,4 +1,4 @@
-declare module '@kevinfaguiar/vue-twemoji-picker' {
+declare module '@heyunxia/vue-twemoji-picker' {
   import Vue from 'vue';
   class TwemojiPicker extends Vue {}
   class TwemojiTextarea extends Vue {}

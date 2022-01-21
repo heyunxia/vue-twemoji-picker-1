@@ -8,7 +8,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/docs/' },
-      { text: 'Github Repo', link: 'https://github.com/kevinfaguiar/vue-twemoji-picker' },
+      { text: 'Github Repo', link: 'https://github.com/heyunxia/vue-twemoji-picker' },
       { text: 'My Portfolio', link: 'https://kevinfaveri.now.sh/' }
     ],
     sidebar: {

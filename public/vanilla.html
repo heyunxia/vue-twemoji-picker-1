@@ -10,12 +10,12 @@
     document.addEventListener('DOMContentLoaded', function () {
       (async () => {
         const fetchedDataAllResponse = await fetch(
-          "https://unpkg.com/@kevinfaguiar/vue-twemoji-picker@5.5.2/emoji-data/en/emoji-all-groups.json"
+          "https://unpkg.com/@heyunxia/vue-twemoji-picker@1.0.7/emoji-data/en/emoji-all-groups.json"
         );
         window.EmojiDataAll = await fetchedDataAllResponse.json();
 
         const fetchedGroupsResponse = await fetch(
-          "https://unpkg.com/@kevinfaguiar/vue-twemoji-picker@5.5.2/emoji-data/emoji-groups.json"
+          "https://unpkg.com/@heyunxia/vue-twemoji-picker@1.0.7/emoji-data/emoji-groups.json"
         );
         window.EmojiGroups = await fetchedGroupsResponse.json();
 

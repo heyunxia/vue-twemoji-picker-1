@@ -1,7 +1,7 @@
 <template>
   <div style="margin: 5% 0;">
-    <twemoji-textarea 
-      :emojiData="emojiDataAll" 
+    <twemoji-textarea
+      :emojiData="emojiDataAll"
       :emojiGroups="emojiGroups"
       :skinsSelection="true"
       :enableSendBtn="true"
@@ -22,9 +22,9 @@
 <script>
 import {
   TwemojiTextarea
-} from '@kevinfaguiar/vue-twemoji-picker';
-import EmojiAllData from '@kevinfaguiar/vue-twemoji-picker/emoji-data/en/emoji-all-groups.json';
-import EmojiGroups from '@kevinfaguiar/vue-twemoji-picker/emoji-data/emoji-groups.json';
+} from '@heyunxia/vue-twemoji-picker';
+import EmojiAllData from '@heyunxia/vue-twemoji-picker/emoji-data/en/emoji-all-groups.json';
+import EmojiGroups from '@heyunxia/vue-twemoji-picker/emoji-data/emoji-groups.json';
 
 export default {
   name: 'TwemojiTextarea',

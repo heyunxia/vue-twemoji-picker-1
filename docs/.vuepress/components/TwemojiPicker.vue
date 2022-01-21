@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import { TwemojiPicker }from '@kevinfaguiar/vue-twemoji-picker';
-import EmojiAllData from '@kevinfaguiar/vue-twemoji-picker/emoji-data/en/emoji-all-groups.json';
-import EmojiDataAnimalsNature from '@kevinfaguiar/vue-twemoji-picker/emoji-data/en/emoji-group-animals-nature.json';
-import EmojiDataFoodDrink from '@kevinfaguiar/vue-twemoji-picker/emoji-data/en/emoji-group-food-drink.json';
-import EmojiGroups from '@kevinfaguiar/vue-twemoji-picker/emoji-data/emoji-groups.json';
+import { TwemojiPicker }from '@heyunxia/vue-twemoji-picker';
+import EmojiAllData from '@heyunxia/vue-twemoji-picker/emoji-data/en/emoji-all-groups.json';
+import EmojiDataAnimalsNature from '@heyunxia/vue-twemoji-picker/emoji-data/en/emoji-group-animals-nature.json';
+import EmojiDataFoodDrink from '@heyunxia/vue-twemoji-picker/emoji-data/en/emoji-group-food-drink.json';
+import EmojiGroups from '@heyunxia/vue-twemoji-picker/emoji-data/emoji-groups.json';
 
 export default {
   name: 'TwemojiPicker',
