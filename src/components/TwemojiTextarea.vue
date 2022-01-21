@@ -250,6 +250,7 @@ export default Vue.extend({
       this.$emit('update:content', content);
       this.$emit('actualContentLengthChanged', this.actualContentLength);
       this.$emit('contentChanged', content);
+      this.$emit('emojiTextChanged', {value: content, length: this.actualContentLength});
     },
     emitIsContentOverflowed() {
       if (this.actualContentLength > this.maxlength)
